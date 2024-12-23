@@ -1,34 +1,39 @@
-Create a venv in the directory
+# Discord Gemini Bot Setup
 
-'
+## Create Virtual Environment
+
+Create a virtual environment in the project directory:
+
+```bash
 python -m venv venv
-'
+```
 
-Then activate the venv
+## Activate Virtual Environment
 
-'
-##on windows 
-
+### On Windows
+```bash
 source venv/Scripts/activate
-`
-or 
+```
 
-'
-## on mac or linux 
+### On macOS or Linux
+```bash
+source venv/bin/activate
+```
 
-source venv/bin/activate 
-'
+## Install Requirements
 
-install the requirements
+Install the project dependencies:
 
-'
+```bash
 pip install -r requirements.txt
-'
+```
 
-run the bot
+## Run the Bot
 
-'
+Start the Discord Gemini bot:
+
+```bash
 python discord_gemini_bot.py
-'
+```
 
-have fun!
+Enjoy! 🤖
