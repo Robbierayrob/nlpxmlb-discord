@@ -1,0 +1,4 @@
+discord.py
+langchain 
+langchain-google-genai 
+chromadb
